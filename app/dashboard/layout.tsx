@@ -6,6 +6,7 @@ import Link from "next/link";
 const links = [
   { name: "accordion", href: "accordion" },
   { name: "alert", href: "alert" },
+  { name: "data-table", href: "data-table" },
 ];
 
 export default function DashboardLayout({
