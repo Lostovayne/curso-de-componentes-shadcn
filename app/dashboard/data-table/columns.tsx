@@ -73,9 +73,7 @@ export const columns: ColumnDef<Payment>[] = [
                 navigator.clipboard
                   .writeText(payment.id)
                   .then(() => alert("Copied payment ID to clipboard!"))
-                  .catch(() =>
-                    alert("Failed to copy payment ID to clipboard!")
-                  );
+                  .catch(() => alert("Failed to copy payment ID to clipboard!"));
               }}
             >
               Copy payment ID
